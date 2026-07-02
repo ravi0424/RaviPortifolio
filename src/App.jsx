@@ -11,12 +11,12 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default function App() {
-  const { theme, toggle } = useTheme()
+  useTheme()
 
   return (
     <>
       <PipelineSpine />
-      <Navbar theme={theme} toggleTheme={toggle} />
+      <Navbar />
       <main>
         <Hero />
         <About />

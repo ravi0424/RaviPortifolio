@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import { Menu, Moon, Sun } from 'lucide-react'
+import { Menu } from 'lucide-react'
 import { navLinks, profile } from '../data/resume'
 
-export default function Navbar({ theme, toggleTheme }) {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState('')
@@ -55,9 +55,6 @@ export default function Navbar({ theme, toggleTheme }) {
           <a className="btn btn-ghost" href={profile.resume} download>
             Résumé
           </a>
-          <button className="toggle" onClick={toggleTheme} aria-label="Toggle dark mode" title="Toggle theme">
-            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
           <button
             className="hamburger"
             onClick={() => setOpen((o) => !o)}
