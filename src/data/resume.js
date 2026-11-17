@@ -130,7 +130,7 @@ export const projects = [
     label: 'PROJECT_01 · Azure DevOps · Docker',
     title: 'CI/CD Pipeline for a Microservices Voting App',
     desc:
-      'Built an end-to-end CI/CD pipeline for a microservices-based voting application (Voting + Result services) using Azure DevOps, with version control through Azure Repos and Infrastructure as Code for consistent, repeatable environments.',
+      'Built an end-to-end CI/CD pipeline for a microservices-based voting application (Voting + Result services) using Azure DevOps, with version control through Azure Repos and Infrastructure as Code for repeatable deployments.',
     outcome: '40% faster deployments via pipeline optimization & automated testing',
     tech: ['Azure DevOps', 'Docker', 'Azure Repos', 'IaC'],
   },
@@ -138,7 +138,7 @@ export const projects = [
     label: 'PROJECT_02 · Arduino IoT',
     title: 'Cloud-Based Remote Electricity Metering & Billing',
     desc:
-      'Developed an intelligent remote electricity metering and billing system on Arduino IoT, enabling real-time usage monitoring and automated billing. Accurate, timely data transmission to the cloud improved efficiency and cut manual intervention.',
+      'Developed an intelligent remote electricity metering and billing system on Arduino IoT, enabling real-time usage monitoring and automated billing. Accurate, timely data transmission to the cloud improved visibility and efficiency.',
     outcome: 'Real-time monitoring with automated, accurate billing',
     tech: ['Arduino', 'IoT', 'Cloud'],
   },
@@ -154,13 +154,14 @@ export const projects = [
     label: 'PROJECT_04 · AWS EKS',
     title: 'Containerized Microservices on AWS EKS',
     desc:
-      'Production-style deployment of containerized microservices to high-availability AWS EKS clusters with auto-scaling node groups, ECR-managed images, and fully automated CodePipeline-driven rollouts.',
+      'Production-style deployment of containerized microservices to high-availability AWS EKS clusters with auto-scaling node groups, ECR-managed images, and fully automated CodePipeline-driven deployments.',
     outcome: 'High-availability, auto-scaling, zero-touch deployments',
     tech: ['Docker', 'Kubernetes', 'AWS EKS', 'ECR'],
   },
 ]
 
 export const certifications = [
+  { yr: '2026', name: 'AWS Certified Cloud Practitioner', iss: 'AWS' },
   { yr: '2026', name: 'Tricentis Tosca Automation Specialist 1', iss: 'Tricentis' },
   { yr: '2023', name: 'Microsoft Azure Administrator Associate — AZ-104', iss: 'Microsoft' },
   { yr: '2022', name: 'Microsoft Azure Fundamentals — AZ-900', iss: 'Microsoft' },
